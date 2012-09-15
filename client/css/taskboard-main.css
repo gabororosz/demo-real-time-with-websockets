@@ -1,0 +1,26 @@
+[draggable] {
+    user-select: none;
+}
+
+.column {
+    height: 150px;
+    width: 150px;
+    float: left;
+    border: 2px solid #666666;
+    background-color: #ccc;
+    margin-right: 5px;
+    text-align: center;
+    cursor: move;
+}
+
+.column header {
+    color: #fff;
+    padding: 5px;
+    background: linear-gradient(left center, rgb(120,0,0), rgb(79,79,79), rgb(21,21,21));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.column.over {
+    border: 2px dashed #000;
+}
